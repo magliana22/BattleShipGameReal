@@ -1,6 +1,6 @@
 package com.example.battleshipgamestate.battleship;
 
-public class Ship {
+public class BSShip {
 
    private int shipHealth;
    private int shipHits;
@@ -9,7 +9,7 @@ public class Ship {
   private int yCoord;
   private int Owner;
 
-   public Ship(int xLocation, int yLocation, int idOfOwner, int shipSize){
+   public BSShip(int xLocation, int yLocation, int idOfOwner, int shipSize){
        this.xCoord=xLocation;
        this.yCoord=yLocation;
        this.Owner=idOfOwner;

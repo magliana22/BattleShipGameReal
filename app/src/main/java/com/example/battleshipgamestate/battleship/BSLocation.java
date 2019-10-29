@@ -1,20 +1,20 @@
 package com.example.battleshipgamestate.battleship;
 
-public class Location {
+public class BSLocation {
 
     private boolean isWater;
     private boolean isShip;
     private boolean isHit;
     private boolean isMiss;
 
-    public Location(){
+    public BSLocation(){
         this.isWater=true;
         this.isShip=false;
         this.isHit=false;
         this.isMiss=false;
     }
 
-    public int checkSpot(Location location){
+    public int checkSpot(BSLocation location){
         if(location.isWater){
             return 1;
         }
